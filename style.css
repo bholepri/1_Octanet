@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+    color: wheat;
+}
+
+
+nav {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+.navlink {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+section h1 {
+    margin-top: 100px;
+}
+
+section div {
+    display: flex;
+}
+
+.banner-side {
+    margin-top: 1%;
+    margin-left: 8%;
+    float: left;
+    width: 30%;
+    text-align: justify;
+    padding: 1%;
+    font-size: large;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin-top: 1%;
+    margin-left: 10%;
+    float: left;
+    width: 50%;
+    left: 10%;
+
+}
+
+#banner:hover {
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+
+.container {
+
+    margin-top: 30%;
+    padding: 15px;
+    background-color: #333;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 1%;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    font-size: 18px;
+    color: white;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.course {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+.course-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.course-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.course-button {
+
+
+    width: 100px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: purple;
+    color: white;
+
+
+
+}
+
+#c1,
+#c2,
+#c3,
+#c4,
+#c5,
+#c6 {
+    margin-top: 3%;
+
+}
+
+#c3 {
+    margin-top: 8%;
+}
+
+#c4 {
+    margin-top: 13%;
+}
+
+#c6 {
+    margin-top: 4%;
+}
+
+.course-link {
+    text-decoration: none;
+    color: white;
+}
+
+.course-button:hover {
+    background-color: gray;
+}
+
+.course-img:hover {
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.container2 {
+    margin-top: 4%;
+    padding: 15px;
+    color: white;
+    background-color: #333;
+
+}
+
+.section1-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section1-title p {
+    font-size: 16px;
+    margin-top: 1%;
+    color: white;
+}
+
+.teachers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: #333;
+}
+
+.teacher {
+
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+    border: #666;
+}
+
+.teacher-image {
+    margin-bottom: 10px;
+}
+
+.teacher-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: wheat;
+    margin-bottom: 10px;
+}
+
+.teacher-description {
+    font-size: 16px;
+    color: wheat;
+}
+
+.teacher-button {
+    width: 100px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: purple;
+    color: wheat;
+
+
+}
+
+#t1 {
+    margin-top: 23px;
+}
+
+#t2 {
+    margin-top: 8px;
+    ;
+}
+
+.teacher-image:hover {
+    border-radius: 30px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.section2-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.section2-title h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+.section2-title p {
+    font-size: 18px;
+    color: #666;
+
+}
+
+.teacher-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.teacher-button:hover {
+    background-color: #da229c;
+}
+
+.content-body {
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
